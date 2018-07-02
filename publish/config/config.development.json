@@ -4,13 +4,13 @@
     "publisher": "DADI"
   },
   "server": {
-    "host": "127.0.0.1",
+    "host": "0.0.0.0",
     "port": 3001
   },
   "apis": [
     {
       "name": "DADI Cloud API",
-      "host": "http://127.0.0.1",
+      "host": "http://atlas.jolharg.com",
       "port": 8081,
       "version": "1.0",
       "database": "cloud",
@@ -41,7 +41,7 @@
   ],
   "auth": {
     "enabled": true,
-    "host": "http://127.0.0.1",
+    "host": "http://atlas.jolharg.com",
     "port": 8081,
     "version": "1.0",
     "database": "auth",
@@ -52,13 +52,13 @@
     }
   },
   "publicUrl": {
-    "host": "127.0.0.1",
+    "host": "atlas.jolharg.com",
     "port": 3001,
     "protocol": "http"
   },
   "cdn": {
     "publicUrl": {
-      "host": "127.0.0.1",
+      "host": "atlas.jolharg.com",
       "port": 3003,
       "protocol": "http:"
     }
